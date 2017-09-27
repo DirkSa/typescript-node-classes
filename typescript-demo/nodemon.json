@@ -1,0 +1,11 @@
+{
+  "verbose": true,
+  "delay": 500,
+  "ignore": [
+    "*.js"
+  ],
+  "watch": [
+    "*.ts"
+  ],
+  "ext": "ts json"
+}

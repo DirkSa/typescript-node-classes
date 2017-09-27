@@ -1,0 +1,19 @@
+{
+  "name": "grep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "8.0.30",
+    "nodemon": "1.12.1"
+  },
+  "dependencies": {
+    "es6-promise": "4.1.1"
+  }
+}

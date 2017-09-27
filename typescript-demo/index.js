@@ -1,0 +1,21 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const lodash = require("lodash");
+console.log('hfffi something  ooofffsss1 xxx xxxff');
+const arrayOfPeople = [
+    {
+        id: 1,
+        name: 'Lars'
+    },
+    {
+        id: 2,
+        name: 'Martin'
+    },
+    {
+        id: 3,
+        name: 'Ivo'
+    }
+];
+let result = lodash.find(arrayOfPeople, { id: 1 });
+console.log(result);
+//# sourceMappingURL=index.js.map
