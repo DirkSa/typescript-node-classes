@@ -4,9 +4,9 @@
 - access to query and url parameters
 - serving static files
 - request, response object
-- using Express Router
 - middlewares
 - using templates
+- handlebars
 
 - mongodb
 - define mongo schema
