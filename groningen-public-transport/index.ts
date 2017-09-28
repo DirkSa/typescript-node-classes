@@ -1,4 +1,4 @@
-import request = require('request-promise-native');
+import * as request from 'request-promise-native';
 
 import {normalizeLines, normalizeLineDetails} from './normalizers';
 import { LinesResponse, LineDetailsResponse } from './models/api-responses';

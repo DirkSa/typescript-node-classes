@@ -1,5 +1,8 @@
 
 import lodash = require('lodash');
+import * as something from './my-module';
+
+console.log(something);
 
 console.log('hfffi something  ooofffsss1 xxx xxxff');
 

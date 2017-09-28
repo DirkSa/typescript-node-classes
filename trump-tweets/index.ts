@@ -1,4 +1,4 @@
-import Twit = require('twit');
+import * as Twit from 'twit';
 
 const client = new Twit({
   consumer_key: 'p3LQctQnbeUFdRvpFdBo4YF3S',
