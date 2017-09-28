@@ -1,0 +1,20 @@
+Hi, I am {{name}}
+
+and this is my page
+
+<h2>BFF</h2>
+<ul>
+  {{#each arrayOfNames}}
+    <li>{{this}}</li>
+  {{/each}}
+</ul>
+
+{{#if showSecret}}
+  My secret password is 12345
+{{/if}}
+
+<h2>Visits on this page</h2>
+
+{{#each auditLog}}
+  From IP: {{this.ipAddress}} at {{this.timestamp}}<br>
+{{/each}}
